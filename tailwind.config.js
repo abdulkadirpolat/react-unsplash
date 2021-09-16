@@ -16,11 +16,19 @@ module.exports = {
         100: 100,
         auto: "auto",
       },
+      height: {
+        88: "22rem",
+      },
+      width: {
+        88: "22rem",
+      },
     },
   },
   variants: {
     extend: {
       zIndex: ["hover", "active"],
+      display: ["hover", "focus"],
+      visibility: ["hover", "focus"],
     },
   },
   plugins: [],
